@@ -34,7 +34,7 @@ function Intro() {
               <img
                 className=" overflow-hidden h-24"
                 alt=""
-                src="/iconparktwotonesearch.svg"
+                src="find-CA/iconparktwotonesearch.svg"
               />
               <div className="text-lg ml-3">
                 <b>SEARCH</b>
@@ -45,7 +45,7 @@ function Intro() {
               <img
                 className="overflow-hidden h-24"
                 alt=""
-                src="/iconparktwotoneenquire.svg"
+                src="find-CA/iconparktwotoneenquire.svg"
               />
               <div className="text-lg ml-3">
                 <b>CONNECT</b>
@@ -56,7 +56,7 @@ function Intro() {
               <img
                 className="overflow-hidden h-24"
                 alt=""
-                src="/iconparktwotonetablereport.svg"
+                src="find-CA/iconparktwotonetablereport.svg"
               />
               <div className="text-lg ml-6">
                 <b>RESEARCH</b>
@@ -67,7 +67,7 @@ function Intro() {
               <img
                 className="overflow-hidden h-28"
                 alt=""
-                src="/iconparktwotonedegreehat.svg"
+                src="find-CA/iconparktwotonedegreehat.svg"
               />
               <div className="text-lg ml-3">
                 <b>ACADEMY</b>
@@ -111,7 +111,7 @@ function Intro() {
               <img
                 className="h-56 md:h-72 lg:h-96 overflow-hidden max-h-full object-cover"
                 alt=""
-                src="/teacher@2x.png"
+                src="find-CA/teacher@2x.png"
               />
             </div>
           </div>
@@ -119,51 +119,11 @@ function Intro() {
             <img
               className="h-56 md:h-72 lg:h-96 overflow-hidden max-h-full object-cover"
               alt=""
-              src="/student@2x.png"
+              src="find-CA/student@2x.png"
             />
           </div>
         </div>
       </div>
-
-      {/* <div className="flex">
-        <img
-          className="absolute max-w-full overflow-hidden max-h-full object-cover"
-          alt=""
-          src="/student@2x.png"
-        />
-        <div className="absolute flex flex-col items-end justify-center font-open-sans">
-          <div className="rounded-t-mini rounded-br-10xs rounded-bl-mini bg-fs-search-banner-purple flex flex-row items-start justify-start py-2 px-4">
-            <div className="relative leading-[160%]">{`Hey, check out loreumipsum services. `}</div>
-          </div>
-        </div>
-        <div className="absolute flex flex-col items-end justify-center font-open-sans">
-          <div className="rounded-t-mini rounded-br-10xs rounded-bl-mini bg-fs-search-banner-purple flex flex-row items-start justify-start py-2 px-4">
-            <div className="relative leading-[160%]">
-              I learned from their videos, got my first job.
-            </div>
-          </div>
-        </div>
-        <div className="absolute flex flex-col items-end justify-center font-open-sans">
-          <div className="rounded-t-mini rounded-br-10xs rounded-bl-mini bg-fs-search-banner-purple flex flex-row items-start justify-start py-2 px-4">
-            <div className="relative leading-[160%]">
-              You won't be disappointed with their services.
-            </div>
-          </div>
-        </div>
-        <img
-          className="absolute max-w-full overflow-hidden max-h-full object-cover"
-          alt=""
-          src="/teacher@2x.png"
-        />
-        <div className="absolute rounded-t-mini rounded-br-mini rounded-bl-10xs bg-fs-search-banner-blue flex flex-row items-start justify-start py-2 px-4">
-          <div className="relative leading-[160%]">
-            I got a perfect analysis report from them too
-          </div>
-        </div>
-        <div className="absolute rounded-t-mini rounded-br-mini rounded-bl-10xs bg-fs-search-banner-blue flex flex-row items-start justify-start py-2 px-4">
-          <div className="relative leading-[160%]">Oh, that's great.</div>
-        </div>
-      </div> */}
     </div>
   );
 }
