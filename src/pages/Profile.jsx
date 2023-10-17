@@ -235,7 +235,11 @@ const Profile = () => {
             </div>
             <div className="flex flex-col rounded-xl shadow-[2px_4px_15px_rgba(133,_133,_167,_0.25)] ">
               <div className="flex flex-col rounded-xl shadow-[2px_4px_15px_rgba(133,_133,_167,_0.25)]">
-                <img className="rounded" src="/rectangle-376.png" alt="Image" />
+                <img
+                  className="rounded"
+                  src="/find-CA/rectangle-376.png"
+                  alt="Image"
+                />
                 <div className="flex flex-col p-4">
                   <div className="flex flex-raw justify-between items-center mb-4">
                     <p className="font-bold text-xl">Stevie Wonder</p>
