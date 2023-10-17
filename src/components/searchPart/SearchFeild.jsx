@@ -34,7 +34,7 @@ const SearchFeild = () => {
   };
 
   if (redirect) {
-    return <Navigate to={`/details/${searchName}`} />;
+    return <Navigate to={`details/${searchName}`} />;
   }
 
   let shouldDisplaySuggestions = searchName.trim() !== "";

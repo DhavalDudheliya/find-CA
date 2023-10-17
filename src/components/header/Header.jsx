@@ -20,7 +20,7 @@ export default function Header() {
         aria-label="Global"
       >
         {/* Logo */}
-        <Link to="/" className="cursor-pointer leading-6 pr-12">
+        <Link to="/find-CA/" className="cursor-pointer leading-6 pr-12">
           <span className="sr-only">Your Company</span>
           <img className="h-10 w-auto" src="/image-11@2x.png" alt="" />
         </Link>
