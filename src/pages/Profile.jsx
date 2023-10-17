@@ -2,6 +2,7 @@ import { React, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Header from "../components/header/header";
 import axios from "axios";
+import { BACKEND_URL } from "../../myconstant";
 
 const Profile = () => {
   const [data, setData] = useState([]);
@@ -11,7 +12,7 @@ const Profile = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/charteredAccountants?name_like=${name}`)
+      .get(`${BACKEND_URL}/charteredAccountants?name_like=${name}`)
       .then((response) => {
         const responseData = response.data[0];
         setData(responseData);
@@ -40,7 +41,7 @@ const Profile = () => {
                     <img
                       className="w-[24px] h-[24px]"
                       alt="Star fill"
-                      src="/star-fill.png"
+                      src="/find-CA/star-fill.png"
                     />
                     <span className="top-0 font-normal text-fs-search-primary text-[20px] leading-[normal]">
                       <span className="font-bold text-fs-search-primary">
@@ -63,7 +64,7 @@ const Profile = () => {
                     <img
                       className="w-[24px] h-[24px]"
                       alt="Calender fill"
-                      src="/calendar-2-line.png"
+                      src="/find-CA/calendar-2-line.png"
                     />
                     <h1>{data.deliveryTime}</h1>
                   </div>
@@ -120,7 +121,7 @@ const Profile = () => {
                   alt="User"
                   src={data.image}
                   onError={(event) => {
-                    event.target.src = "/default.png";
+                    event.target.src = "/find-CA/default.png";
                     event.onerror = null;
                   }}
                 />
@@ -201,7 +202,11 @@ const Profile = () => {
           <p className="font-bold text-2xl text-black">Reccomanded for you</p>
           <div className="flex flex-row rounded-xl gap-8">
             <div className="flex flex-col rounded-xl shadow-[2px_4px_15px_rgba(133,_133,_167,_0.25)]">
-              <img className="rounded" src="/rectangle-376.png" alt="Image" />
+              <img
+                className="rounded"
+                src="/find-CA/rectangle-376.png"
+                alt="Image"
+              />
               <div className="flex flex-col p-4">
                 <div className="flex flex-raw justify-between items-center mb-4">
                   <p className="font-bold text-xl">Michael Jackson</p>
@@ -214,7 +219,7 @@ const Profile = () => {
                   <img
                     className="w-[24px] h-[24px]"
                     alt="Star fill"
-                    src="/star-fill.png"
+                    src="/find-CA/star-fill.png"
                   />
                   <span className="top-0 font-normal text-fs-search-primary text-[20px] leading-[normal]">
                     <span className="font-bold text-fs-search-primary">
@@ -243,7 +248,7 @@ const Profile = () => {
                     <img
                       className="w-[24px] h-[24px]"
                       alt="Star fill"
-                      src="/star-fill.png"
+                      src="/find-CA/star-fill.png"
                     />
                     <span className="top-0 font-normal text-fs-search-primary text-[20px] leading-[normal]">
                       <span className="font-bold text-fs-search-primary">
@@ -260,7 +265,11 @@ const Profile = () => {
             </div>
             <div className="flex flex-col rounded-xl shadow-[2px_4px_15px_rgba(133,_133,_167,_0.25)]">
               <div className="flex flex-col rounded-xl shadow-[2px_4px_15px_rgba(133,_133,_167,_0.25)]">
-                <img className="rounded" src="/rectangle-376.png" alt="Image" />
+                <img
+                  className="rounded"
+                  src="/find-CA/rectangle-376.png"
+                  alt="Image"
+                />
                 <div className="flex flex-col p-4">
                   <div className="flex flex-raw justify-between items-center mb-4">
                     <p className="font-bold text-xl">Ray Charles</p>
@@ -273,7 +282,7 @@ const Profile = () => {
                     <img
                       className="w-[24px] h-[24px]"
                       alt="Star fill"
-                      src="/star-fill.png"
+                      src="/find-CA/star-fill.png"
                     />
                     <span className="top-0 font-normal text-fs-search-primary text-[20px] leading-[normal]">
                       <span className="font-bold text-fs-search-primary">

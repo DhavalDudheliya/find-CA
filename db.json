@@ -229,33 +229,6 @@
           ],
           "benefits": ["Enhanced sustainability", "Optimized financial health"]
         }
-      },
-      {
-        "id": 10,
-        "name": "Isabella Martinez",
-        "image": "https://images.unsplash.com/photo-1588392382834-a891154bca4d?fit=crop&w=800&q=80",
-        "intro": "Expert in mergers, acquisitions, and corporate restructuring with a decade of experience.",
-        "rating": 4.8,
-        "reviewCount": 90,
-        "taskComplexity": "Complex corporate tasks",
-        "price": "€6,000",
-        "deliveryTime": "Delivers within 6 days",
-        "testimonial": {
-          "text": "Isabella played a pivotal role in our successful merger, showcasing exemplary financial acumen.",
-          "author": "Rafael Vega"
-        },
-        "about": {
-          "from": "MEXICO",
-          "partnerSince": 2014,
-          "averageResponseTime": "28 minutes",
-          "description": "Specializes in navigating the financial complexities of mergers and acquisitions.",
-          "services": [
-            "Mergers and acquisitions",
-            "Corporate restructuring",
-            "Financial strategy"
-          ],
-          "benefits": ["Strategic financial guidance", "Efficient restructuring"]
-        }
       }
   ]
 }

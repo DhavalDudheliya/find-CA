@@ -34,7 +34,7 @@ function Intro() {
               <img
                 className=" overflow-hidden h-24"
                 alt=""
-                src="find-CA/iconparktwotonesearch.svg"
+                src="/find-CA/iconparktwotonesearch.svg"
               />
               <div className="text-lg ml-3">
                 <b>SEARCH</b>
@@ -45,7 +45,7 @@ function Intro() {
               <img
                 className="overflow-hidden h-24"
                 alt=""
-                src="find-CA/iconparktwotoneenquire.svg"
+                src="/find-CA/iconparktwotoneenquire.svg"
               />
               <div className="text-lg ml-3">
                 <b>CONNECT</b>
@@ -56,7 +56,7 @@ function Intro() {
               <img
                 className="overflow-hidden h-24"
                 alt=""
-                src="find-CA/iconparktwotonetablereport.svg"
+                src="/find-CA/iconparktwotonetablereport.svg"
               />
               <div className="text-lg ml-6">
                 <b>RESEARCH</b>
@@ -67,7 +67,7 @@ function Intro() {
               <img
                 className="overflow-hidden h-28"
                 alt=""
-                src="find-CA/iconparktwotonedegreehat.svg"
+                src="/find-CA/iconparktwotonedegreehat.svg"
               />
               <div className="text-lg ml-3">
                 <b>ACADEMY</b>
@@ -111,7 +111,7 @@ function Intro() {
               <img
                 className="h-56 md:h-72 lg:h-96 overflow-hidden max-h-full object-cover"
                 alt=""
-                src="find-CA/teacher@2x.png"
+                src="/find-CA/teacher@2x.png"
               />
             </div>
           </div>
@@ -119,7 +119,7 @@ function Intro() {
             <img
               className="h-56 md:h-72 lg:h-96 overflow-hidden max-h-full object-cover"
               alt=""
-              src="find-CA/student@2x.png"
+              src="/find-CA/student@2x.png"
             />
           </div>
         </div>

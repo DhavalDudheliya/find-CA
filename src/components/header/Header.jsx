@@ -22,7 +22,7 @@ export default function Header() {
         {/* Logo */}
         <Link to="/find-CA/" className="cursor-pointer leading-6 pr-12">
           <span className="sr-only">Your Company</span>
-          <img className="h-10 w-auto" src="/image-11@2x.png" alt="" />
+          <img className="h-10 w-auto" src="/find-CA/image-11@2x.png" alt="" />
         </Link>
         <div className="flex items-center lg:flex-1">
           {/* Nav Menus */}
@@ -62,7 +62,11 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-10 w-auto" src="/image-11@2x.png" alt="" />
+              <img
+                className="h-10 w-auto"
+                src="/find-CA/image-11@2x.png"
+                alt=""
+              />
             </a>
             <button
               type="button"

@@ -41,21 +41,21 @@ function Hero1() {
             <img
               className="rounded-[20.99px] w-[198.72px] h-[403.03px] object-cover"
               alt=""
-              src="find-CA/picture@2x.png"
+              src="/find-CA/picture@2x.png"
             />
           </div>
           <div className="flex-1 flex flex-row items-start justify-start">
             <img
               className="rounded-[20.99px] w-[198.72px] h-[403.03px] object-cover"
               alt=""
-              src="find-CA/picture1@2x.png"
+              src="/find-CA/picture1@2x.png"
             />
           </div>
           <div className="flex-1 flex flex-row items-start justify-start pt-[41.98276138305664px] px-0 pb-0">
             <img
               className="rounded-[20.99px] w-[198.72px] h-[403.03px] object-cover"
               alt=""
-              src="find-CA/picture2@2x.png"
+              src="/find-CA/picture2@2x.png"
             />
           </div>
         </div>

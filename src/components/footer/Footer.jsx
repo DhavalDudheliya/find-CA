@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0 lg:mr-20">
             <a href="/home" className="flex flex-col items-start mb-2">
               <img
-                src="find-CA/image-1@2x.png"
+                src="/find-CA/image-1@2x.png"
                 className="h-8 mr-3"
                 alt="FlowBite Logo"
               />

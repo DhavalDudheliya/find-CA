@@ -23,7 +23,7 @@ function Home() {
       <div
         className="relative min-h-screen pb-100px"
         style={{
-          backgroundImage: `url('find-CA/Gradient_background.png')`,
+          backgroundImage: `url('/find-CA/Gradient_background.png')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
