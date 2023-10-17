@@ -12,7 +12,7 @@ const Profile = () => {
 
   useEffect(() => {
     axios
-      .get(`${BACKEND_URL}/charteredAccountants?name_like=${name}`)
+      .get(`${BACKEND_URL}`)
       .then((response) => {
         const responseData = response.data[0];
         setData(responseData);

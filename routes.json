@@ -1,4 +1,4 @@
 {
     "/charteredAccountants" : "/charteredAccountants",
-    "/charteredAccountants?name_like="
+    "/charteredAccountants/:name" :"/charteredAccountants?name_like=:name"
 }

@@ -5,6 +5,7 @@ import { BACKEND_URL } from "../../../myconstant";
 
 const SearchFeild = () => {
   const [searchName, setSearchName] = useState("");
+  const [data, setData] = useState([]);
   const [suggestions, setSuggestions] = useState([]);
   const [redirect, setRedirect] = useState(false);
 
@@ -16,11 +17,22 @@ const SearchFeild = () => {
     }
 
     axios
-      .get(`${BACKEND_URL}/charteredAccountants?name_like=${searchName}`)
+      .get(`${BACKEND_URL}`)
       .then((response) => {
-        setSuggestions(response.data.map((accountant) => accountant.name));
+        const responseData = response.data;
+        setData(responseData);
+        console.log(data);
+        console.log("hii");
+        // setSuggestions(response.data.map((accountant) => accountant.name));
       })
       .catch((error) => console.error("Error:", error));
+  }, []);
+
+  useEffect(() => {
+    const filteredCA = data.filter((item) =>
+      item.name.toLowerCase().includes(searchName)
+    );
+    setSuggestions(filteredCA.map((accountant) => accountant.name));
   }, [searchName]);
 
   const handleSearch = (e, response) => {
