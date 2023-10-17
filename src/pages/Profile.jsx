@@ -10,7 +10,7 @@ const Profile = () => {
   const [data, setData] = useState([]); // store data arrived from get request as OBJECT
   const [info, setInfo] = useState([]);
   const [serviceList, setServiceList] = useState([]); // for mapping services in list
-  const [benifits, setBenifits] = useState([]); // for mapping benefits in list
+  const [benefits, setBenefits] = useState([]); // for mapping benefits in list
   const { name } = useParams(); // get name from URL
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const Profile = () => {
         if (CAInfo && CAInfo.about) {
           setInfo(CAInfo); // set info of CA
           setServiceList(CAInfo.about.services); // Set services array
-          setBenifits(CAInfo.about.benefits); // set benefits array
+          setBenefits(CAInfo.about.benefits); // set benefits array
         }
       } catch (error) {
         console.error("Error:", error);
@@ -46,11 +46,13 @@ const Profile = () => {
   return (
     <div>
       <Header />
-      {info && (
+      {info ? (
         <div className="mx-4 sm:mx-6 md:mx-10 lg:mx-20 xl:mx-32 font-poppins">
-          <About />
-          <Recomendations />
+          <About info={info} serviceList={serviceList} benefits={benefits} />
+          <Recomendations info={info} />
         </div>
+      ) : (
+        <div>Loading...</div>
       )}
     </div>
   );

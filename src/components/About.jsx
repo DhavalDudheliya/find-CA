@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const About = ({info, serviceList, benefits}) => {
   return (
     <div className="md:grid md:grid-cols-5 md:grid-rows-4 md:gap-8 space-y-12">
       <div className="md:col-span-2 md:row-span-3">
@@ -159,8 +159,8 @@ const About = () => {
                           WHY ME?
                         </h2>
                         <ul className="max-w-md space-y-1 font-normal text-black text-xl list-disc list-inside p-2">
-                          {benifits &&
-                            benifits.map((benifit, index) => (
+                          {benefits &&
+                            benefits.map((benifit, index) => (
                               <li key={index}>{benifit}</li>
                             ))}
                         </ul>

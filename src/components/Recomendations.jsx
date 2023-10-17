@@ -1,8 +1,8 @@
 import React from "react";
 
-const Recomendations = () => {
+const Recomendations = ({ info }) => {
   return (
-    <div className="flex flex-col space-y-6 justify-start">
+    <div className="flex flex-col space-y-6 justify-start mb-12">
       <p className="font-bold text-2xl text-black">Reccomanded for you</p>
       <div className="flex flex-col md:flex-row rounded-xl gap-8">
         <div className="flex flex-col rounded-xl shadow-[2px_4px_15px_rgba(133,_133,_167,_0.25)]">
