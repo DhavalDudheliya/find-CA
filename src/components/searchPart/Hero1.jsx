@@ -7,10 +7,8 @@ function Hero1() {
     // left part
     <div className="flex flex-col lg:flex-row items-center">
       <div className="flex-1 pr-4 pl-4 lg:pl-32">
-        {/* Adjusted padding */}
         <div className="flex flex-col items-center font-poppins">
           <b className="text-[30px] text-left lg:text-46xl">
-            {/* Adjusted text size */}
             <span>{`Find  `}</span>
             <span
               style={{

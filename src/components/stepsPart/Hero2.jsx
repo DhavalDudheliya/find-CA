@@ -23,6 +23,7 @@ function Hero2() {
             To remain with us, it is essential that you diligently follow the
             step provided
           </p>
+          {/* Cards of steps */}
           <Cards />
           <p className="text-xl mx-6 md:mx-28">
             * For forms AOC-4 and MGT-7, you will be charged a penalty of ₹200
